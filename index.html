@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Code</title>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="banner p-0 pt-4">
+		<div class="container text-center">			
+			<h1 class="text-center display-4"><i class="fab fa-js logo"></i> Code</h1>
+			<p class="text-center">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repudiandae adipisci explicabo modi neque molestias corporis facilis a eveniet eaque?
+			</p>
+
+		</div>
+
+		<div class="boton-box mt-5 p-3 d-flex justify-content-center">
+			<div class="boton text-center">
+				<a href=""><i class="fab fa-github"></i> GitHub</a>
+			</div>
+
+			<div class="boton text-center">
+				<a href=""><i class="fas fa-glasses"></i> Curriculum</a>
+			</div>
+		</div>
+		
+	</div>
+
+	<section class="proyectos p-5">
+		<h2 class="text-center text-lg-left">Proyectos</h2>
+
+		<div class="row my-5 justify-content-center">
+			<div class="proyecto my-5 col-12 col-lg-6 row">
+				<div class="col-12 col-xl-5 p-imagen">
+					<img class="w-100" src="img/pikachu.jpg" alt="">
+				</div>
+
+				<div class="col-12 col-xl-7">
+					<h3>Nombre proyecto</h3>
+
+					<p class="p-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque necessitatibus, laboriosam voluptas error itaque obcaecati quisquam dolorum nesciunt alias nihil neque, officia consequatur iure voluptatibus quod inventore, cum asperiores.
+					</p>
+
+					<div class="p-link d-inline">
+						<a href="#" data-id="#Puzle"><i class="fas fa-puzzle-piece"></i> Abrir</a>
+					</div>				
+				</div>
+			</div>
+		</div>
+
+		<!-- Modeal -->
+
+		<div class="modal-p p-3" id="Puzle">
+
+			<div class="btn-cerrar">
+				<button type="button" data-id="#Puzle"><span aria-hidden="true" class="font-weight-bold">&times;</span></button>				
+			</div>
+
+			<svg width="300" height="300" id="entorno">
+				<g id="fondo"><image xlink:href="img/pikachu.jpg" width="300" height="300" x="0" y="0"></g>
+				<g class="padre" id="0"><image xlink:href="img/001.jpg" class="movil"></g>
+				<g class="padre" id="1"><image xlink:href="img/002.jpg" class="movil"></g>
+				<g class="padre" id="2"><image xlink:href="img/003.jpg" class="movil"></g>
+				<g class="padre" id="3"><image xlink:href="img/004.jpg" class="movil"></g>
+				<g class="padre" id="4"><image xlink:href="img/005.jpg" class="movil"></g>
+				<g class="padre" id="5"><image xlink:href="img/006.jpg" class="movil"></g>
+				<g class="padre" id="6"><image xlink:href="img/007.jpg" class="movil"></g>
+				<g class="padre" id="7"><image xlink:href="img/008.jpg" class="movil"></g>
+			</svg>
+
+			<audio id="win" src="https://raw.githubusercontent.com/NestorPlasencia/PikaPuzzle/master/media/win.mp3"></audio>
+
+			<div class="btn-jugar">
+				<button onclick="mezclar()">Jugar</button>		
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/puzle.js"></script>
+	<script src="js/modal-p.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+/*
+ROJO   #EE6A59
+NEGRO  #3A3F58
+NARANJA #F9AC67
+BLANCO  #ECE6CD
+*/
+
+/*General*/
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	color: #3A3F58;
+}
+
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	color: #ECE6CD;
+}
+
+h3 {
+	font-family: 'Permanent Marker', cursive;
+	color: #EE6A59;
+}
+
+p {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+}
+
+.banner {
+	background: #F9AC67;
+}
+
+.banner .logo {
+	font-size: 100px;
+	color: #CF6355;
+}
+
+/* Botones */
+
+.boton-box {
+	background: #EE6A59;
+}
+
+.boton {
+	background: #ECE6CD;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: -5px 10px 11px -6px rgba(58,63,88,0.75);
+}
+
+.boton a {
+	color: #3A3F58;
+}
+
+.boton:hover {
+	background: #3A3F58;
+}
+
+.boton:hover a {
+	text-decoration: none;
+	color: #ECE6CD;
+}
+
+.btn-cerrar {
+	width: 100%;
+	text-align: right;
+	padding: 30px;
+}
+
+.btn-cerrar button {
+	background: #EE6A59;
+	color: #ECE6CD;
+	padding:  3px 7px;
+	border-radius: 7px;
+	box-shadow: -5px 10px 11px -6px rgba(58,63,88,0.75);
+}
+
+
+.btn-jugar {
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+}
+
+.btn-jugar button {
+	background: #EE6A59;
+	color: #ECE6CD;
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-shadow: -5px 10px 11px -6px rgba(58,63,88,0.75);
+}
+
+.btn-jugar button:hover {
+	background: #ECE6CD;
+	color: #EE6A59;
+}
+
+/* Proyectos */
+
+.proyectos {
+	background: #3A3F58;
+}
+
+hr {
+	color: #ECE6CD;
+}
+
+.p-text {
+	color: #ECE6CD;
+}
+
+.p-imagen img {
+	border-radius: 10px;
+	border: 5px dashed #EE6A59;
+}
+
+.p-link {
+	background: #ECE6CD;
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-shadow: -5px 10px 11px -6px rgba(58,63,88,0.75);
+}
+
+.p-link a {
+	color: #3A3F58;
+}
+
+.p-link:hover {
+	background: #3A3F58;
+	border: 2px solid #F9AC67;
+}
+
+.p-link:hover a {
+	color: #F9AC67;
+	text-decoration: none;
+}
+
+/* Modal */
+
+.modal-p {
+	background: #ECE6CD;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 9999999999;
+	display: none;
+}
+
+/* Puzle */
+
+#entorno {
+	display: block;
+	margin: 0 auto;
+}
+
+#fondo {
+	opacity: 0.3;
+}
